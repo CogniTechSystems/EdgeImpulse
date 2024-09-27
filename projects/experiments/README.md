@@ -77,7 +77,7 @@ Now that your device is connected to Edge Impulse. It is time to collect some da
 
 First we will create the `normal` data. This data will represent when a machine is running normally with no abnormal vibrations. Select the `Intertial` sensor and use `Normal` as the label. Next record about 3 minutes of 10 second samples from the device.
 
-![Edge Impulse Project Collect Vibrations Data](assets/img/edge-impulse-rp2040-collect-data-normal.jpg "Edge Impulse Project Collect Vibrations Data")
+![Edge Impulse Project Collect Vibrations Data](assets/img/edge-impulse-rp2040-collect-data-vibrations.jpg "Edge Impulse Project Collect Vibrations Data")
 
 Next we will collect the `Vibrations` data. Change the label to `Vibrations` and record 3 minutes more of samples, but this time shake the Arduino around while the samples are being recorded.
 
@@ -113,7 +113,7 @@ Click `Add` to add the Spectral Analysis processing block to your Impulse.
 
 For the learning block, we will use `Classification` to classify between `Normal` and `Vibrations`. Click `Add` to add the classification block to your Impulse.
 
-next click `Save Impulse`.
+Next click `Save Impulse`.
 
 
 
