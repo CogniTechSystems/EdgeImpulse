@@ -93,5 +93,30 @@ Head to the project dashboard and scroll to the `Danger Zone` at the bottom. Cli
 
 Back on the `Data aquisition` tab, you will now see that the data has been split.
 
+## Create Impulse
+
+![Edge Impulse Project Create Impulse](assets/img/edge-impulse-create-impulse.jpg "Edge Impulse Project Create Impulse")
+
+Now it is time to create your Impulse. Head over to the `Create Impulse` tab and you should see the configuration for your Nano RPI2040. You can accept the defaults here.
+
+## Spectral Analysis
+
+![Edge Impulse Project Create Spectral Analysis Impulse](assets/img/edge-impulse-create-impulse-spectral.jpg "Edge Impulse Project Create Spectral Analysis Impulse")
+
+First we will use the `Spectral Analysis` processing block. Spectral Analysis is ieal for examining repetitive movements, particularly using accelerometer data, this tool breaks down signals to reveal their frequency and power patterns over time.
+
+Click `Add` to add the Spectral Analysis processing block to your Impulse.
+
+## Classification
+
+![Edge Impulse Project Create Spectral Analysis Classification Impulse](assets/img/edge-impulse-create-impulse-spectral-classification.jpg "Edge Impulse Project Create Spectral Analysis Classification Impulse")
+
+For the learning block, we will use `Classification` to classify between `Normal` and `Vibrations`. Click `Add` to add the classification block to your Impulse.
+
+next click `Save Impulse`.
+
+
+
+
 
 
