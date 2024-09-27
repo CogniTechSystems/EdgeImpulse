@@ -40,3 +40,14 @@ The Seeed Studio XIAO ESP32S3 Sense is a compact development board powered by th
 
 First you should set up your Seeed XIAO ESP32, connecting the antenna and the expansion board to the top of the XAIO ESP32. The expansion board simply clicks in place using the B2B connector. Once the expansion board is in place, insert your formatted SD card into the SD port on the device.
 
+# Edge Impulse
+
+## Create Edge Impulse Project
+
+![Create Edge Impulse Project](assets/img/edge-impulse-project.jpg "Create Edge Impulse Project")
+
+Now it's time to create your Edge Impulse project. Head over to [Edge Impulse](https://studio.edgeimpulse.com/), log in, ad create your new project.
+
+![Create Edge Impulse Project Dashboard](assets/img/edge-impulse-project-dashboard.jpg "Create Edge Impulse Project Dashboard")
+
+Once your project is created, you will see the project dashboard which will show you new additions to the platform.
