@@ -66,3 +66,32 @@ You will be prompted for your Edge Impulse login details to proceed. Once authen
 ![Edge Impulse Project Device Connected](assets/img/edge-impulse-devices-rp2040-connected.jpg "Edge Impulse Project Device Connected")
 
 If you now head over to your project and go the `Devices` tab, you will see your device is now connected.
+
+## Collect Data
+
+![Edge Impulse Project Collect Data](assets/img/edge-impulse-rp2040-collect-data.jpg "Edge Impulse Project Collect Data")
+
+Now that your device is connected to Edge Impulse. It is time to collect some data. Head over to the `Data aquisition` tab and select the RPI2040.
+
+![Edge Impulse Project Collect Normal Data](assets/img/edge-impulse-rp2040-collect-data-normal.jpg "Edge Impulse Project Collect Normal Data")
+
+First we will create the `normal` data. This data will represent when a machine is running normally with no abnormal vibrations. Select the `Intertial` sensor and use `Normal` as the label. Next record about 3 minutes of 10 second samples from the device.
+
+![Edge Impulse Project Collect Vibrations Data](assets/img/edge-impulse-rp2040-collect-data-normal.jpg "Edge Impulse Project Collect Vibrations Data")
+
+Next we will collect the `Vibrations` data. Change the label to `Vibrations` and record 3 minutes more of samples, but this time shake the Arduino around while the samples are being recorded.
+
+![Edge Impulse Project Collected Data](assets/img/edge-impulse-rp2040-collected-data.jpg "Edge Impulse Project Collected Data")
+
+You should now have about 6 minutes of data. Note that at this point the data is not split into training and validation.
+
+![Edge Impulse Project Collected Data Split](assets/img/edge-impulse-data-train-test-split.jpg "Edge Impulse Project Collected Data Split")
+
+Head to the project dashboard and scroll to the `Danger Zone` at the bottom. Click on the `Perform train/test split` button to split the data.
+
+![Edge Impulse Project Collected Data Split](assets/img/edge-impulse-data-split.jpg "Edge Impulse Project Collected Data Split")
+
+Back on the `Data aquisition` tab, you will now see that the data has been split.
+
+
+
