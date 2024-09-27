@@ -11,9 +11,7 @@ This project provides a walk through of how to use experiments, along with sourc
 
 ## Hardware
 
-- Seeed XIAO ESP32 S3 Sense [More Info](https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/seeed-xiao-esp32s3-sense)
-- microSD card (32GB MAX)
-- microSD card reader
+- Arduino Nano RPI2040 Connect [More Info](https://store.arduino.cc/products/arduino-nano-rp2040-connect)
 
 ## Platform
 
@@ -27,18 +25,17 @@ This project provides a walk through of how to use experiments, along with sourc
 
 # Getting Started
 
-## Format SD Card
-First you will need to format your SD card if you are using one. You can use software such as [SD Card Formatter](https://www.sdcardformatter.com/) for this task to easily format your card.
+## Arduino Nano RPI2040 Connect
 
-## Seeed XIAO ESP32 S3 Sense
+![Arduino Nano RPI2040 Connect](assets/img/arduino-nano-rpi2040-connect.jpg "Arduino Nano RPI2040 Connect")
 
-![Seeed XIAO ESP32 S3 Sense](assets/img/xaio-esp32.jpg "Seeed XIAO ESP32 S3 Sense")
+The Arduino Nano RP2040 Connect is a highly versatile development board, bringing the power of the Raspberry Pi RP2040 microcontroller to the compact Nano form factor. Equipped with dual-core 32-bit Arm Cortex-M0+ processors, it enables seamless creation of IoT projects with built-in Wi-Fi and Bluetooth support via the U-blox Nina W102 module. The board includes an accelerometer, gyroscope, RGB LED, and omnidirectional microphone, making it ideal for real-time data collection and embedded AI applications.
 
-The Seeed Studio XIAO ESP32S3 Sense is a compact development board powered by the dual-core ESP32S3 chip, running at up to 240 MHz. It supports both Wi-Fi and Bluetooth Low Energy (BLE) and comes with a detachable OV2640 camera sensor with a resolution of 1600x1200, plus a digital microphone. With 8MB of PSRAM, 8MB of FLASH, and an external SD card slot, the board is ideal for embedded machine learning (ML) projects.
+![Arduino Nano RPI2040 Connect Pins](assets/img/arduino-nano-rpi2040-connect-pins.jpg "rduino Nano RPI2040 Connect Pins")
 
-![Seeed XIAO ESP32 S3 Sense Schematics](assets/img/xaio-esp32-schematics.jpg "Seeed XIAO ESP32 S3 Sense Schematics")
+The Nano RP2040 Connect is fully compatible with the Arduino Cloud platform, allowing users to rapidly prototype IoT solutions. It also supports MicroPython for those who prefer Python for programming. With a clock speed of 133 MHz, the board is well-suited for machine learning tasks, offering support for frameworks like TinyML and TensorFlow Lite. Additionally, its 6-axis IMU and temperature sensor expand the board’s capability for advanced real-world applications.
 
-First you should set up your Seeed XIAO ESP32, connecting the antenna and the expansion board to the top of the XAIO ESP32. The expansion board simply clicks in place using the B2B connector. Once the expansion board is in place, insert your formatted SD card into the SD port on the device.
+To begin working with the Edge Impulse platform and the Nano RPI2040 Connect, follow [this tutorial](https://docs.edgeimpulse.com/docs/edge-ai-hardware/mcu/raspberry-pi-rp2040) to connect your device.
 
 # Edge Impulse
 
@@ -53,3 +50,19 @@ Edge Impulse offers experiments to all users, with the community tier allowing u
 ![Create Edge Impulse Project Dashboard](assets/img/edge-impulse-project-dashboard.jpg "Create Edge Impulse Project Dashboard")
 
 Once your project is created, you will see the project dashboard which will show you new additions to the platform.
+
+## Connect Your Device
+
+Next you need to connect your device to the Edge Impulse platform. Ensuring you have the Nano connected to your computer, open commandline or terminal and use the following command:
+
+```bash
+edge-impulse-daemon
+```
+
+![Edge Impulse Project Device Connection](assets/img/edge-impulse-devices-cmd.jpg "Edge Impulse Project Device Connection")
+
+You will be prompted for your Edge Impulse login details to proceed. Once authenticated you will need to choose the COM port that your device is connected to, and then select the Edge Impulse project you want to connect your device to.
+
+![Edge Impulse Project Device Connected](assets/img/edge-impulse-devices-rp2040-connected.jpg "Edge Impulse Project Device Connected")
+
+If you now head over to your project and go the `Devices` tab, you will see your device is now connected.

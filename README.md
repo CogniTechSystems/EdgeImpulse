@@ -7,4 +7,4 @@ This repository contains a collection of examples using [Edge Impulse](https://e
 
 # Projects
 
- [Edge Impulse Experiments](projects/experiments/README.md)
+- [Edge Impulse Experiments](projects/experiments/README.md)
