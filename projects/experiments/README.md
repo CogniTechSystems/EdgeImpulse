@@ -46,7 +46,9 @@ First you should set up your Seeed XIAO ESP32, connecting the antenna and the ex
 
 ![Create Edge Impulse Project](assets/img/edge-impulse-project.jpg "Create Edge Impulse Project")
 
-Now it's time to create your Edge Impulse project. Head over to [Edge Impulse](https://studio.edgeimpulse.com/), log in, ad create your new project.
+Now it's time to create your Edge Impulse project. Head over to [Edge Impulse](https://studio.edgeimpulse.com/), log in, and create your new project.
+
+Edge Impulse offers experiments to all users, with the community tier allowing up to three simultaneous experiments. Users on the Professional Plan and Enterprise tiers enjoy unlimited access to experiments. You can explore all the platform’s advanced features by signing up for an [Enterprise Trial](https://studio.edgeimpulse.com/trial-signup).
 
 ![Create Edge Impulse Project Dashboard](assets/img/edge-impulse-project-dashboard.jpg "Create Edge Impulse Project Dashboard")
 
