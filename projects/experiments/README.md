@@ -137,7 +137,13 @@ Now it is time to train our model. Head over to the `Classifier` tab and click o
 
 A training job will start, once trained you will see the results on the right hand side of the UI.
 
+## Testing
 
+![Edge Impulse Project Spectral Analysis Classification Testing](assets/img/edge-impulse-train-spectral-classifier-testing.jpg "Edge Impulse Project Spectral Analysis Classification Testing")
+
+If you now head over to the `Model testing` tab, you will be able to use your newly trained model on the test data. The test data was not shown to the model during training, so this will help to evaluate how well the model does on unseen data.
+
+The testing process will start and you will see the results once complete.
 
 
 
