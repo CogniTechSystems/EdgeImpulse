@@ -155,7 +155,20 @@ If you head to the `Experiments` tab, you will see that you have your first expe
 
 You are now able to deploy your model to your Arduino. Head over to the `Deployment` tab and search for Arduino, then follow the steps provided to you to deploy the model to your device.
 
-As this tutorial is specifically related to Experiments, we will continue straight to creating our next experiment.
+As this tutorial is specifically related to Experiments, we will continue straight to EON Tuner and creating our next experiment.
+
+## EON Tuner
+
+![Edge Impulse Project EON Tuner](assets/img/edge-impulse-eon-tuner.jpg "Edge Impulse Project EON Tuner")
+
+The EON™ Tuner simultaneously tests multiple model architectures, chosen based on your device and latency needs, to identify the best one for your application. The tuning process can take up to 6 hours, and you can monitor its progress at any point during the search.
+
+![Edge Impulse Project EON Tuner](assets/img/edge-impulse-eon-tuner-run.jpg "Edge Impulse Project EON Tuner")
+
+On the `Experiments` tab, select `EON Tuner`. For the `Search space configuration` select `Classification` in the `Usecase templates` drop down, then click `Start tuning` to run.
+
+At this point, it is time to grab a coffee and put your feet up, as this will take some time to complete.
+
 
 
 
