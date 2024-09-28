@@ -129,6 +129,16 @@ Once the job is complete click `Save parameters`. You will be redirected to the 
 
 A feature generation job will start, and once finished you will see the features on the right hand side. The features should be nicely clustered, if you notice features that are not clustered correctly you can click on them, review the samples and update your dataset or settings to fix.
 
+## Training
+
+![Edge Impulse Project Spectral Analysis Classification Training](assets/img/edge-impulse-train-spectral-classifier.jpg "Edge Impulse Project Spectral Analysis Classification Training")
+
+Now it is time to train our model. Head over to the `Classifier` tab and click on `Save and train`.
+
+A training job will start, once trained you will see the results on the right hand side of the UI.
+
+
+
 
 
 
