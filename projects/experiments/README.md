@@ -145,6 +145,10 @@ If you now head over to the `Model testing` tab, you will be able to use your ne
 
 The testing process will start and you will see the results once complete.
 
+![Edge Impulse Project First Experiment](assets/img/edge-impulse-first-experiment.jpg "Edge Impulse Project First Experiment")
+
+If you head to the `Experiments` tab, you will see that you have your first experiment listed.
+
 
 
 
