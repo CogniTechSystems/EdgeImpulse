@@ -149,7 +149,13 @@ The testing process will start and you will see the results once complete.
 
 If you head to the `Experiments` tab, you will see that you have your first experiment listed.
 
+## Deployment
 
+![Edge Impulse Project Deployment](assets/img/edge-impulse-deployment.jpg "Edge Impulse Project Deployment")
+
+You are now able to deploy your model to your Arduino. Head over to the `Deployment` tab and search for Arduino, then follow the steps provided to you to deploy the model to your device.
+
+As this tutorial is specifically related to Experiments, we will continue straight to creating our next experiment.
 
 
 
