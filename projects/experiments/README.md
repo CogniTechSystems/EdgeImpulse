@@ -115,6 +115,21 @@ For the learning block, we will use `Classification` to classify between `Normal
 
 Next click `Save Impulse`.
 
+## Feature Generation
+
+![Edge Impulse Project Spectral Analysis Classification Features](assets/img/edge-impulse-generate-features.jpg "Edge Impulse Project Spectral Analysis Classification Features")
+
+Now we will generate the features that the AI model will use to learn. Head over to the `Spectral Features` tab and click on `Autotune parameters`. An autotune job will start and you will see the output on the right hand side of the UI.
+
+![Edge Impulse Project Spectral Analysis Classification Features](assets/img/edge-impulse-save-parameters.jpg "Edge Impulse Project Spectral Analysis Classification Features")
+
+Once the job is complete click `Save parameters`. You will be redirected to the `Generate features` tab.
+
+![Edge Impulse Project Spectral Analysis Classification Features](assets/img/edge-impulse-generated-features.jpg "Edge Impulse Project Spectral Analysis Classification Features")
+
+A feature generation job will start, and once finished you will see the features on the right hand side. The features should be nicely clustered, if you notice features that are not clustered correctly you can click on them, review the samples and update your dataset or settings to fix.
+
+
 
 
 
