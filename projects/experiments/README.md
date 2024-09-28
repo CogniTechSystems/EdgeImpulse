@@ -7,7 +7,7 @@ Edge Impulse Experiments are a powerful new feature that allows users to run mul
 
 The updated interface includes a new "Experiments" section, which centralizes impulse management and integrates the EON Tuner for enhanced trial handling. Along with API enhancements and streamlined processes, these changes significantly accelerate development and improve project organization, making it easier to transition from data collection to deployment.
 
-This project provides a walk through of how to use experiments, along with source codes and a tutorial that will help you get started with Edge Impulse Experiments.
+This project provides a walk through of how to use experiments, along with a tutorial that will help you get started with Edge Impulse Experiments.
 
 ## Hardware
 
@@ -169,8 +169,22 @@ On the `Experiments` tab, select `EON Tuner`. For the `Search space configuratio
 
 At this point, it is time to grab a coffee and put your feet up, as this will take some time to complete.
 
+## Experiment 2
 
+![Edge Impulse Project EON Tuner](assets/img/edge-impulse-eon-tuner-add.jpg "Edge Impulse Project EON Tuner")
 
+If at any time during the EON tuning process, you see a configuration you would like to try, you can simply click the `Add` button for that configuration.
 
+![Edge Impulse Project EON Tuner](assets/img/edge-impulse-eon-tuner-choose.jpg "Edge Impulse Project EON Tuner")
+
+Here we see a configuration that has a considerable reduction for latency, RAM, and ROM, we will use this configuration for our next experiment.
+
+![Edge Impulse Project Experiment 2](assets/img/edge-impulse-experiment-2.jpg "Edge Impulse Project Experiment 2")
+
+The platform will create the blocks for your new impulse and add the features automatically for your. If you head back to the `Experiments` tab you will now see your shiny new model waiting for you to test or deploy.
+
+## Conclusion
+
+In this tutorial, we demonstrated how to build a defect detection system with Edge Impulse and the Arduino Nano RP2040, and how to leverage the EON Tuner to optimize your model. By integrating these tools, you can easily refine and enhance your models, showcasing the power and simplicity of Edge Impulse's new Experiments feature for continuous improvement in machine learning projects.
 
 
